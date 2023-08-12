@@ -75,6 +75,5 @@ This project is licensed under the MIT License.
 Contact
 For inquiries or feedback, please contact us kashaf.mujeeb22@gmail.com
 
-Feel free to modify and expand upon this template to provide a comprehensive overview of your Stocks Management project in your GitHub README.
 
 
