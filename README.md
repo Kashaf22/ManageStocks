@@ -1,4 +1,4 @@
-# Stock Management App
+# InvestaTrack
 
 This is a simple stock management app built with Next.js, MongoDB, Firebase, and Express. Users can sign in using Firebase authentication, add and manage their stocks, and access financial market data, stock screening sites, and stock news.
 
