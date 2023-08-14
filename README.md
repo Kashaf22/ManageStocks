@@ -20,7 +20,8 @@ Users can view their highest profit from a single stock investment on the dashbo
 User-Friendly Interface:
 
 The app features an intuitive and clean interface for easy navigation and interaction.
-
+**User Sign In/Sign Out Option**
+![image](https://github.com/Kashaf22/ManageStocks/assets/89542741/6d08fac4-8ee1-481f-97c8-f9f245dba0ad)
 
 **UI to Search**
 ![image](https://github.com/Kashaf22/ManageStocks/assets/89542741/86ddb939-1179-4679-bc84-88b34751faa9)
