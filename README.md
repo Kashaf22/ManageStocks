@@ -1,25 +1,15 @@
-**Stocks Management App**
-The Stocks Management App is designed to help users keep track of their stock investments. It provides a user-friendly interface to manage stocks, monitor current prices, and calculate profit or loss.
+# Stock Management App
 
-**Features**
-The following functionality has been implemented in the Stocks Management App:
+This is a simple stock management app built with Next.js, MongoDB, Firebase, and Express. Users can sign in using Firebase authentication, add and manage their stocks, and access financial market data, stock screening sites, and stock news.
 
-Stock Tracking:
+## Features
 
-Users can add stocks to their portfolio by entering ticker symbols, quantities, and purchase prices.
-The app fetches current stock prices and displays them alongside the user's investments.
-Real-Time Updates:
+- User authentication with Firebase
+- Add and manage stocks in your portfolio
+- View financial market data
+- Access stock screening sites
+- Read news on stocks
 
-The app provides real-time updates of stock prices, allowing users to see changes at a glance.
-Profit/Loss Calculation:
-
-For each stock, the app calculates and displays the profit or loss based on the current price and initial investment.
-Highest Profit:
-
-Users can view their highest profit from a single stock investment on the dashboard.
-User-Friendly Interface:
-
-The app features an intuitive and clean interface for easy navigation and interaction.
 **User Sign In/Sign Out Option**
 ![image](https://github.com/Kashaf22/ManageStocks/assets/89542741/6d08fac4-8ee1-481f-97c8-f9f245dba0ad)
 
@@ -32,48 +22,57 @@ The app features an intuitive and clean interface for easy navigation and intera
 **UI displays the stocks with their ticker, price, quantity, current price, and profit/loss in a table**
 ![image](https://github.com/Kashaf22/ManageStocks/assets/89542741/07738c58-df04-47dd-8b74-ee49aa1d32b6)
 
+## Installation
 
-**Getting Started**
-To run the Stocks Management App locally, follow these steps:
+1. Clone the repository:
 
-Clone the repository.
-Install the necessary dependencies using npm install.
-Configure Firebase credentials in firebase.js for authentication and database access.
-Run the app using npm start.
-Technologies Used
-React: Front-end development and user interface.
-Firebase: User authentication and database management.
-Real-time stock price data: Fetches and displays up-to-date stock information.
-Installation
-Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/stock-management-app.git
+   cd stock-management-app
+Install the dependencies:
 
 bash
 Copy code
-git clone https://github.com/YourUsername/StocksManagement.git
-Install dependencies:
-
-Copy code
 npm install
-Configure Firebase:
+Create a .env.local file in the project root and add your Firebase config:
 
-Replace the Firebase configuration in firebase.js with your own credentials.
-Run the app:
-
-sql
+env
 Copy code
-npm start
-Contributing
-Contributions to the Stocks Management App are welcome! Here's how you can contribute:
+NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-auth-domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
+Start the development server:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make changes and commit them.
-Push your changes to your fork.
-Create a pull request to the main repository.
+bash
+Copy code
+npm run dev
+Open your browser and navigate to http://localhost:3000.
+
+**Usage**
+Sign in using your Google account to access the stock management dashboard.
+Add stocks to your portfolio by providing the stock ticker, quantity, and price.
+View your stocks in the dashboard and access financial market data, stock screening sites, and stock news.
+Technologies Used
+Next.js
+Firebase Authentication
+MongoDB
+Express
+Axios
+JWT (JSON Web Tokens)
+
+**Acknowledgements**
+This app was inspired by the need for a simple stock management solution.
+Financial market data is fetched from Yahoo Finance.
+Stock screening sites include Google Finance and Stock Analysis.
+Stock news is retrieved from MSN Money.
 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
+The app features an intuitive and clean interface for easy navigation and interaction.
 
-Contact
+**Contact**
 For inquiries or feedback, please contact us kashaf.mujeeb22@gmail.com
 
 
