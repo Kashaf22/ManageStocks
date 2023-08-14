@@ -2,9 +2,14 @@
 import Header from '@/components/Header'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
+import { getAuth } from "firebase/auth";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 
-export default function Home() {
+
+export default function Home({router}) {
+  const auth = getAuth();
+
 
   const dropdownItemStyle = {
     padding: '8px',
@@ -205,7 +210,7 @@ const calculateTotalInvested = (ticker) => {
 
   return (
     <>
-      <Header />
+      <Header router={router} />
       <div className="container bg-white w-full max-w-screen-md p-8  items-center justify-center ">
         <div className='text-green-800 text-center'>{alert}</div>
         <h1 className="text-2xl font-semibold mb-4 text-indigo-600 text-center">
@@ -345,4 +350,4 @@ const calculateTotalInvested = (ticker) => {
       </div>
     </>
   )
-}
+            } 
